@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&display=swap");
+.sign-up {
+  height: 40px;
+  background-color: #F0A7A1;
+}
+
+.sign-up p {
+  margin-left: 210;
+  font-size: 18px;
+}
+
+.sign-up span {
+  margin-right: 30px;
+}
+
+nav {
+  height: 100px;
+}
+
+nav a.navbar-brand {
+  position: relative;
+  right: 70;
+  top: 0;
+  /*remark: when we work with position:relative css rule, we will have a display problem of the element on other screen sizes, we can solve it with media queries of course,
+        but we will have to write lots of medias, so how to solve this problem of positioning the element simply?*/
+}
+
+nav .collapse .navbar-nav .nav-link {
+  font-size: 16px;
+  color: black;
+  padding-right: 10;
+}
+
+footer {
+  font-family: Montserrat;
+  background-color: #336667;
+  padding-top: 70;
+  padding-bottom: 70;
+}
+
+footer:hover {
+  opacity: .95;
+}
+
+footer .footer-inner {
+  color: white;
+  padding-top: 16;
+}
+
+footer .footer-inner .column1 {
+  position: relative;
+  right: 50;
+}
+
+footer .footer-inner .column1 p {
+  padding-top: 30;
+}
+
+footer .footer-inner .column2,
+footer .footer-inner .column3,
+footer .footer-inner .column4,
+footer .footer-inner .column5 {
+  position: relative;
+  right: 120;
+}
+
+footer .footer-inner .column2 a,
+footer .footer-inner .column3 a,
+footer .footer-inner .column4 a,
+footer .footer-inner .column5 a {
+  text-decoration: none;
+  padding-bottom: 20;
+  display: block;
+  color: white;
+}
+
+footer .footer-inner .column2 a:hover,
+footer .footer-inner .column3 a:hover,
+footer .footer-inner .column4 a:hover,
+footer .footer-inner .column5 a:hover {
+  color: #204546;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+footer .footer-inner .column2 h4,
+footer .footer-inner .column3 h4,
+footer .footer-inner .column4 h4,
+footer .footer-inner .column5 h4 {
+  padding-bottom: 30;
+  text-align: start;
+  font-weight: bolder;
+}
+
+footer .under-footer .horizontal-line {
+  margin-top: 80;
+  border: 1px solid white;
+}
+
+footer .under-footer .row {
+  padding-top: 20;
+}
+
+footer .under-footer .row .column span {
+  color: white;
+  font-size: 14;
+}
+
+footer .under-footer .row .column img {
+  margin-right: 10;
+}
+
+footer .under-footer .row .column img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+footer .under-footer .row .column2 a {
+  font-size: 30px;
+  margin-right: 10;
+  color: black;
+}
+
+footer .under-footer .row .column2 a i:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section.under-nav .column1 {
+  z-index: 999;
+  background-color: white;
+  border: 0.8px solid lightgrey;
+  position: relative;
+  bottom: 150px;
+  right: 60px;
+  padding-left: 25;
+  padding-right: 25;
+}
+
+section.under-nav .column1:hover {
+  opacity: .88;
+}
+
+section.under-nav .column1 h2 {
+  padding-top: 25;
+  font-size: 36;
+  margin-left: 40;
+}
+
+section.under-nav .column1 p {
+  margin-top: 5;
+  padding-left: 25;
+  padding-bottom: 20;
+}
+
+section.under-nav .column2 {
+  z-index: 999;
+  background-color: white;
+  border: 0.8px solid lightgrey;
+  position: relative;
+  bottom: 150px;
+  position: relative;
+  right: 45px;
+  padding: 20px 25px;
+  padding-right: 50;
+}
+
+section.under-nav .column2:hover {
+  opacity: .88;
+}
+
+section.under-nav .column2 img:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+section.under-nav .column2 h2 {
+  margin-bottom: 20;
+}
+
+section.under-nav .column2 span {
+  margin-bottom: 30;
+}
+
+section.under-nav span {
+  margin-bottom: 8;
+}
+
+img.Untitled:hover {
+  opacity: .88;
+}
+
+section.content {
+  margin-top: -190px;
+}
+
+section.content h1 {
+  position: relative;
+  bottom: 60;
+  font-size: 48px;
+}
+
+section.content h3 {
+  margin-left: -50px;
+  font-size: 24px;
+}
+
+section.content span.categorie {
+  margin-left: -50px;
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+}
+
+section.content .column1:hover {
+  opacity: .88;
+}
+
+section.content .column1 div.line {
+  border: .5px solid lightgrey;
+  margin-bottom: 8px;
+}
+
+section.content .column1 div.line:hover {
+  border: 2px solid;
+}
+
+section.content .column1 form.form1 {
+  display: block;
+  position: relative;
+  right: 40;
+}
+
+section.content .column1 form.form1 input {
+  margin-top: 20;
+  position: relative;
+}
+
+section.content .column1 form.form1 span {
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+}
+
+section.content .column1 form.form1 span:hover {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+section.content .column2 {
+  position: relative;
+  right: 25;
+}
+
+section.content .column2 h2 {
+  color: #336667;
+  font-family: Fraunces;
+  font-size: 24;
+}
+
+section.content .column2 p {
+  position: relative;
+  bottom: 10;
+}
+
+section.content .column2 small {
+  color: gray;
+}
+
+section.content .column2 span.price {
+  position: relative;
+  bottom: 15;
+  font-weight: bold;
+  display: block;
+  padding-top: 15;
+  padding-bottom: 15;
+}
+
+section.content .column2 span.price span:nth-child(1) {
+  font-size: 24;
+}
+
+section.content .column2 div.small span {
+  background-color: rgba(211, 211, 211, 0.445);
+  padding: 6;
+}
+
+section.content .column2 div.small span:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+section.content .column2 .product {
+  margin-bottom: 35;
+  padding-bottom: 20;
+  padding-top: 10;
+}
+
+section.content .column2 .product:hover {
+  opacity: .88;
+  border: .4px solid brown;
+  border-radius: 15;
+}
+
+section.content .column2 .product .heart:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-color: black;
+}
+
+section.under-products {
+  margin-top: 50;
+  background-color: #F7F7F7;
+}
+
+section.under-products:hover {
+  opacity: .7;
+}
+
+section.under-products .row {
+  padding-top: 40;
+  padding-bottom: 40;
+}
+
+section.under-products .row .column {
+  text-align: center;
+}
+
+section.under-products .row .column h2 {
+  font-size: 24px;
+}
+
+section.newsletter {
+  background-color: #3ab39b;
+  padding-top: 15;
+  padding-bottom: 15;
+}
+
+section.newsletter .row .column1 h2 {
+  padding-top: 60;
+  font-size: 36;
+  color: white;
+}
+
+section.newsletter .row .column2 form {
+  margin-top: 60;
+}
+
+section.newsletter .row .column2 form input.input1 {
+  padding-top: 15;
+  padding-bottom: 15;
+  width: 360;
+  border-radius: 75px;
+}
+
+section.newsletter .row .column2 .form-text {
+  font-size: 10px;
+}
+
+section.newsletter:hover {
+  opacity: .95;
+}
+
+section.dummy {
+  font-family: Montserrat;
+  background-color: #204546;
+  padding-top: 40;
+  padding-bottom: 40;
+}
+
+section.dummy:hover {
+  opacity: .95;
+}
+
+section.dummy p {
+  color: white;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=styles.css.map */

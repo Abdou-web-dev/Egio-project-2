@@ -1,0 +1,23 @@
+nav {
+    height: 100px;
+
+    a.navbar-brand {
+        position: relative;
+        right: 70;
+        top: 0;
+        /*remark: when we work with position:relative css rule, we will have a display problem of the element on other screen sizes, we can solve it with media queries of course,
+        but we will have to write lots of medias, so how to solve this problem of positioning the element simply?*/
+    }
+
+    .collapse {
+        // margin-right: 100;
+
+        .navbar-nav {
+            .nav-link {
+                font-size: 16px;
+                color: $black;
+                padding-right: 10;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@mixin mixin1 {
+    z-index: 999;
+    background-color: $white;
+    border: 0.8px solid $lightgrey;
+    position: relative;
+    bottom: 150px;
+}
+
+
